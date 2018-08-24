@@ -1,7 +1,7 @@
 const http = require('http') ;
 const server = http.createServer((request,response)=>{
     response.writeHead(200, { 'Content-Type': 'text-plain' });
-    response.end('Hello PM2\n');
+    response.end('Hello World!\n');
 })
 // 推出程序
 process.on('SIGINT', function() {
