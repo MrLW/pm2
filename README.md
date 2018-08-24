@@ -25,3 +25,8 @@ deploy : {
 ```
 pm2 deploy production setup
 ```
+
+### 4、更新
+```
+pm2 deploy productioon update
+```
