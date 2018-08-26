@@ -13,7 +13,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'root',
-      host : '192.168.1.125',
+      host : '116.62.222.225',
       ref  : 'origin/master',
       repo : 'https://github.com/MrLW/pm2.git',
       path : '/var/www/production',
