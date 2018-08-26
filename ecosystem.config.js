@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name      : 'API',
+    name      : 'pm2',
     script    : 'app.js',
     env: {
       NODE_ENV: 'development'
